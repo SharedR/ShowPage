@@ -8,6 +8,7 @@ comment */
   body, html {
     height: 100%;
     margin: 0;
+    background-color: lightyellow;
   }
 
   .container {
@@ -19,8 +20,7 @@ comment */
 
   .centered-div {
     width: 200px;
-    height: 100px;
-    background-color: lightblue;
+    height: 100px;   
     text-align: center;
     line-height: 100px;
   }
