@@ -11,7 +11,7 @@ comment */
     background-color: lightyellow;
   }
 
-  .container {
+  .container-centric {
     display: flex;
     justify-content: center; /* Horizontal centering */
     align-items: center;     /* Vertical centering */
@@ -24,4 +24,19 @@ comment */
     text-align: center;
     line-height: 100px;
   }
+
+  .container-right {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;     
+    height: 100vh;           
+  }
+
+  .right-div {
+    width: 200px;
+    height: 100px;   
+    text-align: right;
+    line-height: 100px;
+  }
+
 
