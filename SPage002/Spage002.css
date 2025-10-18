@@ -1,0 +1,30 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      transition: background-color 0.3s;
+    }
+
+    section {
+      padding: 20px;
+      margin-top: 60px; /* Adjust this margin to account for the fixed header */
+    }
+
+    /* Style for demonstration purposes */
+    section {
+      background-color: #f4f4f4;
+    }
+
+    /* Change header background on scroll */
+    header.scrolled {
+      background-color: #555;
+    }
